@@ -173,7 +173,7 @@ LoadModules
 Write-Output "Connecting to h1 server...."
 Write-Output "FQDN given: $vc_fqdn"
 # good ole hard coded credentials
-connect-viserver $vc_fqdn -user administrator@vsphere.local -Password Cyberark1!
+connect-viserver $vc_fqdn -user username -Password password
 Write-Output "Connected to h1 server"
 
 if ($create -eq $true){
